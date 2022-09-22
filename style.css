@@ -41,9 +41,9 @@ nav .logo {
   color: #28352f;
 }
 
-/* Header-container */
+/* Hero-container */
 
-header {
+.hero-container {
   max-width: 1200px;
   margin: 0 24px;
 }
