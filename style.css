@@ -21,6 +21,13 @@ a {
   background-repeat: no-repeat;
 }
 
+.background-image {
+  /* background-image: url(./images/illustration-\ about\ me-\ mobile1.png); */
+  background-image: url(./images/header-illsutration-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Navigator */
 
 .nav-container {
