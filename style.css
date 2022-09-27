@@ -284,34 +284,59 @@ button:hover {
   margin: 12px 12px;
 }
 
-input {
-  width: 96%;
-  padding: 12px 20px;
-  margin: 24px 24px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+/* form styling start here */
 
-textarea {
-  width: 96%;
-  margin: 24px 24px 48px 24px;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
+form {
+  position: relative;
+  background-image: url(./images/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 375px;
+  /* height: 879px; */
+  /* left: 0px; */
+  /* top: 5483px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 24px;
+  gap: 58px;
+  
 }
 
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+  
 }
+
+form h2 {
+  width: 327px;
+  height: 363px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  text-align: center;
+}
+
+form input {
+  margin: 0 0;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 327px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* form styling end */
 
 .social-contact ul {
   display: flex;
