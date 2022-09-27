@@ -292,9 +292,6 @@ form {
   background-repeat: no-repeat;
   background-position: right bottom;
   width: 375px;
-  /* height: 879px; */
-  /* left: 0px; */
-  /* top: 5483px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -306,7 +303,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 330px;
