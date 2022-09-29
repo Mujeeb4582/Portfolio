@@ -561,4 +561,9 @@ form textarea {
 
   /* form end */
 
+  /* footer */
+
+  .social-contact .email {
+    display: none;
+  }
 }
