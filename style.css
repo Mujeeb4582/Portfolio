@@ -379,3 +379,47 @@ form textarea {
 .social-container li:hover {
   transform: scale(1.5);
 }
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .background-img {
+    background-image: url(./images/Header-llustration-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 48px;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  header {
+    position: absolute;
+    left: 40%;
+    top: 16px;
+    gap: 8px;
+    width: 255px;
+    height: 40px;
+  }
+
+  .desktop-nav {
+    display: block;
+    margin-left: -98px;
+  }
+
+  .desktop-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .desktop-nav li a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+}
