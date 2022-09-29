@@ -72,8 +72,6 @@ a {
 }
 
 .hero-container p {
-  width: 327px;
-  height: 164px;
   text-align: center;
   color: #172b4d;
   font-weight: 400;
@@ -125,12 +123,6 @@ a {
   text-align: center;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-rows: auto;
-  gap: 16px;
-}
-
 .headline {
   font-weight: 700;
   font-size: 40px;
@@ -156,13 +148,19 @@ a {
 
 .lang,
 .lang2,
-.frame-list,
 .skills-list {
   display: flex;
   align-items: center;
   gap: 8px;
   padding: 0;
   list-style-type: none;
+}
+
+.frame-list {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  margin-left: -34px;
 }
 
 .frame-list,
@@ -193,12 +191,25 @@ a {
   color: #36b37e;
 }
 
+.background-about {
+  background-image: url(./images/about-mobile-top.png),
+    url(./images/about-mobile-bottom.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right -10%, left 90%;
+}
+
 .about {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
   margin-bottom: -42px;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project,
@@ -220,6 +231,12 @@ button {
 button:hover {
   background-color: #c5e9da;
   border: 1px solid #36b37e;
+}
+
+.lang-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Language,
