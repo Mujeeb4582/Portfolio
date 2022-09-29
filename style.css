@@ -36,6 +36,13 @@ a {
   display: none;
 }
 
+.social-contact a {
+  color: #42526e;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
 .mobile-nav .logo {
   font-weight: 600;
   font-size: 20px;
@@ -192,7 +199,8 @@ a {
 }
 
 .background-about {
-  background-image: url(./images/about-mobile-top.png),
+  background-image:
+    url(./images/about-mobile-top.png),
     url(./images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right -10%, left 90%;
@@ -369,13 +377,6 @@ form textarea {
   margin-bottom: 190px;
 }
 
-.social-contact a {
-  color: #42526e;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-}
-
 .social-container li:hover {
   transform: scale(1.5);
 }
@@ -426,7 +427,7 @@ form textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 160px 0px;
+    padding: 160px 0;
     gap: 24px;
   }
 
@@ -495,7 +496,8 @@ form textarea {
   /* About section */
 
   .background-about {
-    background-image: url(./images/About-upper-pic.png),
+    background-image:
+      url(./images/About-upper-pic.png),
       url(./images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right -35%, left bottom;
@@ -525,8 +527,10 @@ form textarea {
 
   form {
     margin-top: 48px;
-    background-image: url(./images/desktop-form-1.png),
-      url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
+    background-image:
+      url(./images/desktop-form-1.png),
+      url(./images/desktop-form-2.png),
+      url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% bottom, left bottom;
     display: grid;
