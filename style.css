@@ -484,7 +484,7 @@ form textarea {
     height: 222px;
     margin-top: -20px;
     margin-left: 41px;
-    z-index: -1;
+    border-top: none;
   }
 
   .project-title {
