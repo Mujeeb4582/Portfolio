@@ -422,4 +422,39 @@ form textarea {
     color: #344563;
   }
 
+  .headline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 24px;
+  }
+
+  .hero-container h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0;
+    margin-top: 70px;
+  }
+
+  .hero-container p,
+  .about p {
+    line-height: 32px;
+    margin: 0 260px;
+    width: 720px;
+    height: 96px;
+  }
+
+  .social-container ul {
+    margin-bottom: 74px;
+  }
+
+  /* Action button */
+
+  .action-btn {
+    display: flex;
+    justify-content: center;
+  }
+
 }
