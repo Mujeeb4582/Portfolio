@@ -491,5 +491,74 @@ form textarea {
   }
 
   /* work section end */
-  
+
+  /* About section */
+
+  .background-about {
+    background-image: url(./images/About-upper-pic.png),
+      url(./images/about-lower-picture.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right -35%, left bottom;
+  }
+
+  .about-box {
+    margin: 92px 0;
+  }
+
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 143px;
+    justify-content: center;
+  }
+
+  .skills,
+  .frameworks,
+  .lang-section {
+    min-width: 369px;
+    height: 352px;
+  }
+
+  /* About section end */
+
+  /* form start */
+
+  form {
+    margin-top: 48px;
+    background-image: url(./images/desktop-form-1.png),
+      url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right bottom, 20% bottom, left bottom;
+    display: grid;
+    grid-template-columns: 1.2fr 1.7fr;
+    column-gap: 8px;
+    height: 600px;
+  }
+
+  form h2 {
+    margin-left: 68px;
+    margin-top: 48px;
+    font-size: 30px;
+    width: 463px;
+    height: 256px;
+  }
+
+  .form {
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  .user-name {
+    display: none;
+  }
+
+  .desktop-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    column-gap: 24px;
+  }
+
+  /* form end */
+
 }
