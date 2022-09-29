@@ -532,7 +532,7 @@ form textarea {
       url(./images/desktop-form-2.png),
       url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: right bottom, 20% bottom, left bottom;
+    background-position: right bottom, 20% 80%, left bottom;
     display: grid;
     grid-template-columns: 1.2fr 1.7fr;
     column-gap: 8px;
@@ -566,6 +566,11 @@ form textarea {
   /* form end */
 
   /* footer */
+
+  .social-contact {
+    border-top: solid 1px #DFE1E6;
+    padding-top: 18px;
+  }
 
   .social-contact .email {
     display: none;
