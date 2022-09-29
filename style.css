@@ -21,38 +21,28 @@ a {
   background-repeat: no-repeat;
 }
 
-.background-image {
-  /* background-image: url(./images/illustration-\ about\ me-\ mobile1.png); */
-  background-image: url(./images/header-illsutration-mobile.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 /* Navigator */
 
-.nav-container {
+.mobile-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
   margin-top: 44px;
   height: 48px;
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: 0 24px;
+.desktop-nav {
+  display: none;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav .logo {
+.mobile-nav .logo {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
 }
 
-.logo a {
+.mobile-nav .logo a {
   text-decoration: none;
   color: #28352f;
 }
