@@ -457,4 +457,39 @@ form textarea {
     justify-content: center;
   }
 
+  /* work section */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16px;
+  }
+
+  .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-holder img {
+    width: 369px;
+    height: 252px;
+  }
+
+  .grid-item3 {
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    width: 368px;
+    height: 222px;
+    margin-top: -20px;
+    margin-left: 41px;
+    z-index: -1;
+  }
+
+  .project-title {
+    margin-top: 24px;
+  }
+
+  /* work section end */
+  
 }
