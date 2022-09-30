@@ -280,6 +280,7 @@ button:hover {
   border: solid #fff 20px;
   border-radius: 50px;
   margin-bottom: 50px;
+  transition: all 0.5s linear;
 }
 
 .frameworks,
