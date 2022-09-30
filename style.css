@@ -122,6 +122,15 @@ a {
 
 /* work section start */
 
+.action-btn img {
+  transition: all 0.5s linear;
+}
+.action-btn img:hover {
+  transform: scale(1.2);
+  border: #36b37e solid 4px;
+  border-radius: 50%;
+}
+
 .grid-item1 {
   display: flex;
   flex-direction: column;
@@ -132,6 +141,21 @@ a {
 
 .grid-item2 {
   text-align: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s linear;
+}
+
+.work:hover {
+  width: 110%;
+  height: 110%;
+  border: solid #36b37e 8px;
+  border-radius: 18px;
+  z-index: 1;
 }
 
 .img-holder img {
