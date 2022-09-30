@@ -125,6 +125,11 @@ a {
 .action-btn img {
   transition: all 0.5s linear;
 }
+
+.img-holder img {
+  width: 60%;
+}
+
 .action-btn img:hover {
   transform: scale(1.2);
   border: #36b37e solid 4px;
@@ -156,10 +161,6 @@ a {
   border: solid #36b37e 8px;
   border-radius: 18px;
   z-index: 1;
-}
-
-.img-holder img {
-  width: 60%;
 }
 
 .grid-item3 {
@@ -242,7 +243,8 @@ a {
 }
 
 .background-about {
-  background-image: url(./images/about-mobile-top.png),
+  background-image:
+    url(./images/about-mobile-top.png),
     url(./images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left 90%;
@@ -309,7 +311,13 @@ button:hover {
   padding: 20px 0 80px 0;
   margin: 0 12px 24px 12px;
   border-radius: 10px;
-  transition: all .5s linear;
+}
+
+.frameworks,
+.skills {
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebf0ee;
 }
 
 .lang-section:hover,
@@ -328,24 +336,16 @@ button:hover {
   border: solid #fff 20px;
   border-radius: 50px;
   margin-bottom: 50px;
-  transition: all .5s linear;
+}
+
+.skills-icon {
+  padding: 10px 10px 0 10px;
 }
 
 .lang-icon:hover,
 .frame-icon:hover,
 .skills-icon:hover {
   border: solid 20px #36b37e;
-}
-
-.frameworks,
-.skills {
-  flex-direction: column;
-  align-items: center;
-  background-color: #ebf0ee;
-}
-
-.skills-icon {
-  padding: 10px 10px 0 10px;
 }
 
 .text-1 {
@@ -562,7 +562,8 @@ form textarea {
   /* About section */
 
   .background-about {
-    background-image: url(./images/About-upper-pic.png),
+    background-image:
+      url(./images/About-upper-pic.png),
       url(./images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
@@ -585,8 +586,10 @@ form textarea {
 
   form {
     margin-top: 48px;
-    background-image: url(./images/desktop-form-1.png),
-      url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
+    background-image:
+      url(./images/desktop-form-1.png),
+      url(./images/desktop-form-2.png),
+      url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
     display: grid;
