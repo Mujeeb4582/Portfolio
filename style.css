@@ -328,6 +328,13 @@ button:hover {
   border: solid #fff 20px;
   border-radius: 50px;
   margin-bottom: 50px;
+  transition: all .5s linear;
+}
+
+.lang-icon:hover,
+.frame-icon:hover,
+.skills-icon:hover {
+  border: solid 20px #36b37e;
 }
 
 .frameworks,
@@ -471,6 +478,14 @@ form textarea {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    transition: all 0.5s linear;
+  }
+
+  .desktop-nav li a:hover {
+    background-color: #36b37e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
   }
 
   .headline-container {
