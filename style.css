@@ -346,10 +346,6 @@ form input {
   padding: 0 12px;
 }
 
-.desktop-name {
-  display: none;
-}
-
 form textarea {
   font-weight: 400;
   font-size: 15px;
@@ -548,17 +544,6 @@ form textarea {
   .form {
     align-items: flex-start;
     width: 90%;
-  }
-
-  .user-name {
-    display: none;
-  }
-
-  .desktop-name {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    column-gap: 24px;
   }
 
   /* form end */
