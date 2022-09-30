@@ -276,6 +276,7 @@ button {
   border: none;
   margin-bottom: 42px;
   color: #fff;
+  transition: all 0.5s linear;
 }
 
 button:hover {
@@ -308,6 +309,17 @@ button:hover {
   padding: 20px 0 80px 0;
   margin: 0 12px 24px 12px;
   border-radius: 10px;
+  transition: all .5s linear;
+}
+
+.lang-section:hover,
+.frameworks:hover,
+.skills:hover {
+  width: 110%;
+  height: 110%;
+  border: solid 10px #36b37e;
+  border-radius: 10px;
+  z-index: 1;
 }
 
 .lang-icon,
