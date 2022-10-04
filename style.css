@@ -21,6 +21,10 @@ a {
   background-repeat: no-repeat;
 }
 
+button a {
+  color: #172b4d;
+}
+
 /* Navigator */
 
 .mobile-nav {
@@ -284,10 +288,6 @@ button {
 button:hover {
   background-color: #c5e9da;
   border: 1px solid #36b37e;
-}
-
-button a {
-  color: #172b4d;
 }
 
 .lang-background {
