@@ -239,7 +239,7 @@ a {
 .frame-list li,
 .skills-list li {
   background-color: #fff;
-  color: #36b37e;
+  color: #172b4d;
 }
 
 .background-about {
@@ -277,13 +277,17 @@ button {
   padding: 12px;
   border: none;
   margin-bottom: 42px;
-  color: #fff;
+  color: #172b4d;
   transition: all 0.5s linear;
 }
 
 button:hover {
   background-color: #c5e9da;
   border: 1px solid #36b37e;
+}
+
+button a {
+  color: #172b4d;
 }
 
 .lang-background {
