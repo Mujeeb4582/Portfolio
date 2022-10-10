@@ -305,7 +305,8 @@ button a {
 }
 
 .background-about {
-  background-image: url(./images/about-mobile-top.png),
+  background-image:
+    url(./images/about-mobile-top.png),
     url(./images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left 90%;
@@ -649,7 +650,8 @@ form textarea {
     margin-top: 48px;
     background-image:
       url(./images/desktop-form-1.png),
-      url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
+      url(./images/desktop-form-2.png),
+      url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
     display: grid;
