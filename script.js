@@ -18,6 +18,6 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 
-menuItems.forEach(function (menuItem) {
+menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });

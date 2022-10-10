@@ -80,16 +80,11 @@ button a {
   font-size: 32px;
   line-height: 44px;
 }
-.menu a:hover {
-  background-color: #36b37e;
-  color: #fff;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
 
 .showMenu {
   transform: translateY(0);
 }
+
 /* responsive nav end */
 
 .desktop-nav {
@@ -101,6 +96,13 @@ button a {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+}
+
+.menu a:hover {
+  background-color: #36b37e;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .mobile-nav .logo {
@@ -621,7 +623,8 @@ form textarea {
   /* About section */
 
   .background-about {
-    background-image: url(./images/About-upper-pic.png),
+    background-image:
+      url(./images/About-upper-pic.png),
       url(./images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
@@ -644,7 +647,8 @@ form textarea {
 
   form {
     margin-top: 48px;
-    background-image: url(./images/desktop-form-1.png),
+    background-image:
+      url(./images/desktop-form-1.png),
       url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
