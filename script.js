@@ -25,9 +25,11 @@ menuItems.forEach((menuItem) => {
 // --------POPUP Window
 
 const body = document.querySelector('body');
-const popupChild = document.createElement('section');
+const popupChild = document.createElement('dialog');
+popupChild.classList.add('popup');
+popupChild.setAttribute('id', 'popup');
 body.appendChild(popupChild);
-popupChild.innerHTML = `<dialog class="popup" id="popup">
+popupChild.innerHTML = `
 <div class="close"><img src="images/close.svg" alt="close-icon"></div>
 <div class="mobile-image">
   <img src="./images/popup-mobile-image1.png" alt="Snapshoot-portfolio">
@@ -43,10 +45,8 @@ popupChild.innerHTML = `<dialog class="popup" id="popup">
 </div>
 <div class="popup-action-btn">
   <button><a href="#">See Live</a><img src="./images/popup-live.svg" alt="Go-live"></button>
-  <button><a href="#">See Source</a><img src="./images/popup-github.svg" alt="Gitub-file"></button>
+  <button><a href="https://github.com/Mujeeb4582/Portfolio">See Source</a><img src="./images/popup-github.svg" alt="Gitub-file"></button>
 </div>
-
-</dialog>
 `;
 
 const popup = document.querySelector('#popup');
