@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Mujeeb Portfolio</title>
   </head>
   <body>
@@ -12,18 +13,23 @@
     <header>
       <nav class="mobile-nav">
         <div class="logo"><a href="#">Welcome</a></div>
-        <div class="menu-icon">
-          <a href="#" class="icon-btn">
-            <img src="./images/Icon - Menu.svg" alt="Menu-icon" />
-          </a>
-        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="#profile">Portfolio</a></li>
+          <li><a class="menuItem" href="#about">About</a></li>
+          <li><a class="menuItem" href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
       </nav>
 
       <nav class="desktop-nav">
         <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#profile">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -81,7 +87,7 @@
     <!-- First page End -->
 
     <!--Work section start -->
-    <section>
+    <section id="profile">
       <div class="grid-item1">
         <h2 class="headline">My Recent Works</h2>
         <div class="indicator"></div>
@@ -216,7 +222,7 @@
 
     <!-- About me section start -->
 
-    <section>
+    <section id="about">
       <div class="background-about">
         <div class="about-box">
           <div class="grid-item1">
@@ -298,7 +304,7 @@
 
     <!-- Form start  -->
 
-    <form action="https://formspree.io/f/xyyvwazk" method="POST">
+    <form id="contact" action="https://formspree.io/f/xyyvwazk" method="POST">
       <h2>
         I'm always intersted in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -361,5 +367,6 @@ Typing something</textarea
     </footer>
 
     <!-- Social section end -->
+    <script src="script.js"></script>
   </body>
 </html>

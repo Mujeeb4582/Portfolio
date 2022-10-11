@@ -36,6 +36,57 @@ button a {
   height: 48px;
 }
 
+/* responsive nav */
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  position: absolute;
+  top: 3rem;
+  right: 1.5rem;
+  padding: 8px 8px 0 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.hamburger .closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  color: black;
+  list-style: none;
+  padding-top: 6rem;
+  margin-left: -48px;
+}
+
+.menu a {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+/* responsive nav end */
+
 .desktop-nav {
   display: none;
 }
@@ -45,6 +96,13 @@ button a {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+}
+
+.menu a:hover {
+  background-color: #36b37e;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .mobile-nav .logo {
