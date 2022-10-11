@@ -21,7 +21,7 @@ a {
   background-repeat: no-repeat;
 }
 
-button a {
+button a:hover {
   color: #172b4d;
 }
 
@@ -47,10 +47,10 @@ button a {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 3rem;
   right: 1.5rem;
-  padding: 8px 8px 0 8px;
+  padding: 8px 8px 8px 8px;
   background: white;
   cursor: pointer;
 }
@@ -182,6 +182,90 @@ button a {
   margin-bottom: 40px;
 }
 
+/* Popup-window styling */
+
+.popup {
+  border: none;
+}
+
+.close img {
+  position: absolute;
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+  right: 40px;
+  top: 30px;
+}
+
+.popup-window {
+  margin: 16px;
+}
+
+.close img:hover {
+  background-color: #36b37e;
+  border-radius: 50%;
+}
+
+.mobile-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.popup-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-items {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  list-style: none;
+}
+
+.popup-items li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #3a4a42;
+  padding: 8px 12px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.popup-details {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup-action-btn {
+  display: flex;
+  gap: 12px;
+}
+
+.popup-action-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+/* Popup-window styling end/*
+
 /* work section start */
 
 .action-btn img {
@@ -305,8 +389,7 @@ button a {
 }
 
 .background-about {
-  background-image:
-    url(./images/about-mobile-top.png),
+  background-image: url(./images/about-mobile-top.png),
     url(./images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left 90%;
@@ -624,8 +707,7 @@ form textarea {
   /* About section */
 
   .background-about {
-    background-image:
-      url(./images/About-upper-pic.png),
+    background-image: url(./images/About-upper-pic.png),
       url(./images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
@@ -648,10 +730,8 @@ form textarea {
 
   form {
     margin-top: 48px;
-    background-image:
-      url(./images/desktop-form-1.png),
-      url(./images/desktop-form-2.png),
-      url(./images/desktop-form-3.png);
+    background-image: url(./images/desktop-form-1.png),
+      url(./images/desktop-form-2.png), url(./images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
     display: grid;
