@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }
 
@@ -499,7 +499,7 @@ form textarea {
   transform: scale(1.5);
 }
 
-/* Popup-window styling */
+/* mobile Popup-window styling */
 
 .popup {
   border: none;
@@ -514,10 +514,6 @@ form textarea {
   top: 30px;
 }
 
-.popup-window {
-  margin: 16px;
-}
-
 .close img:hover {
   background-color: #36b37e;
   border-radius: 50%;
@@ -529,8 +525,6 @@ form textarea {
 }
 
 .popup-title {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -546,8 +540,6 @@ form textarea {
 }
 
 .popup-items li {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -559,8 +551,6 @@ form textarea {
 }
 
 .popup-details {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -764,4 +754,42 @@ form textarea {
   .social-contact .email {
     display: none;
   }
+
+  /* desktop Popup-window styling */
+
+  .dpopup {
+    border: none;
+  }
+
+  .dclose img {
+    float: right;
+    padding: 4px;
+    margin-bottom: 14px;
+  }
+
+  .dclose img:hover {
+    background-color: #36b37e;
+    border-radius: 20%;
+  }
+
+  .desktop-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .popup-title {
+    font-weight: 700;
+  }
+
+  .popup-items li {
+    color: #344563;
+    background: #ebecf0;
+  }
+
+  .popup-details {
+    line-height: 30px;
+    color: #344563;
+  }
+
+  /* Popup-window styling end */
 }
