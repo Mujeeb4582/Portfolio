@@ -21,3 +21,17 @@ hamburger.addEventListener('click', toggleMenu);
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener('click', toggleMenu);
 });
+
+// --------POPUP Window
+
+const popup = document.querySelector('#popup');
+const openPopup = document.querySelector('.project');
+const closePopup = document.querySelector('.close');
+
+openPopup.addEventListener('click', () => {
+  popup.showModal();
+});
+
+closePopup.addEventListener('click', () => {
+  popup.close();
+});
