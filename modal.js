@@ -8,7 +8,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktopTech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -21,7 +21,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktopTech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -34,7 +34,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktoTpech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -47,7 +47,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktoTpech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -60,7 +60,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktopTech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -73,7 +73,7 @@ projectNumber : 1,
     githubIcon: '/images/popup-github.svg',
     liveIcon: '/images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+    desktopTech: ['Codekit', 'Github', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
     liveLink: 'https://mujeeb4582.github.io/Portfolio/'
   },
@@ -94,14 +94,19 @@ window.onclick = function modal(event) {
 function dynamicpro (proidx) {
   const myWork = workData[proidx];
   popModal.innerHTML = `
+  <div onclick="closeModal()" class="dclose"><img src="images/desktop-close.svg" alt="close-icon"></div>
   <div class = "modal">
   <div onclick="closeModal()" class="close"><img src="images/close.svg" alt="close-icon"></div>
   <div class="mobile-image">
   <img src="${myWork.mobileImg}" alt="Snapshoot-portfolio">
   </div>
+  <div class="desktop-image">
+  <img src="${myWork.desktopImg}" alt="Snapshoot-portfolio">
+  </div>
   <div class ="modal-details">
   <h3 class="popup-title">${myWork.title}</h3>
   <ul class="popup-items"> ${myWork.mobileTech.map((ele) => `<li>${ele}</>`)}</ul>
+  <ul class="d-popup-items"> ${myWork.desktopTech.map((ele) => `<li>${ele}</>`)}</ul>
   <p class="popup-details">${myWork.projectDetail}</p>
   <div class="popup-action-btn">
     <button><a href="${myWork.liveLink}">See Live</a><img src="${myWork.liveIcon}" alt="Go-live"></button>
