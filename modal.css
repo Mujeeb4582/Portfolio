@@ -138,7 +138,7 @@
 
   .popup-title {
     font-weight: 700;
-  
+    max-width: 589px;
   }
   .popup-items {
     display: none;
@@ -167,6 +167,17 @@
   .popup-details {
     line-height: 30px;
     color: #344563;
+  }
+
+  .modal-details {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-bottom: 30px;
+  }
+
+  .popup-action-btn {
+    position: absolute;
+    right: 35px;
   }
 
   /* Popup-window styling end */
