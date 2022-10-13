@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }
 
@@ -21,7 +21,21 @@ a {
   background-repeat: no-repeat;
 }
 
-button a {
+.menu a {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.social-contact a {
+  color: #42526e;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+button a:hover {
   color: #172b4d;
 }
 
@@ -47,10 +61,10 @@ button a {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 3rem;
   right: 1.5rem;
-  padding: 8px 8px 0 8px;
+  padding: 8px 8px 8px 8px;
   background: white;
   cursor: pointer;
 }
@@ -74,13 +88,6 @@ button a {
   margin-left: -48px;
 }
 
-.menu a {
-  color: #3a4a42;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-}
-
 .showMenu {
   transform: translateY(0);
 }
@@ -89,13 +96,6 @@ button a {
 
 .desktop-nav {
   display: none;
-}
-
-.social-contact a {
-  color: #42526e;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
 }
 
 .menu a:hover {
