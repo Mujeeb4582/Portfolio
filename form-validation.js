@@ -1,4 +1,4 @@
-const form = document.getElementById('contact');
+const form = document.querySelector('#contact');
 const email = document.getElementById('email');
 const errorInfo = document.getElementById('error');
 
@@ -20,5 +20,8 @@ function validateEmail() {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  validateEmail();
+  const emailValid = validateEmail();
+  if (emailValid) {
+    form.submit();
+  }
 });
