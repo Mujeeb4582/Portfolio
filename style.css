@@ -671,6 +671,10 @@ form textarea {
     width: 90%;
   }
 
+  .dtouch {
+    margin-bottom: 0;
+  }
+
   /* form end */
 
   /* footer */

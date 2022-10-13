@@ -323,13 +323,15 @@
 
         <input
           type="email"
+          id="email"
           name="email_address"
           placeholder="Email address"
           required />
         <textarea name="message" id="message" maxlength="300" required>
 Typing something</textarea
         >
-        <button class="dtouch" type="submit">Get in touch</button>
+          <button class="dtouch" type="submit">Get in touch</button>
+          <small id="error"></small>
       </div>
     </form>
 
@@ -373,5 +375,6 @@ Typing something</textarea
     <!-- Social section end -->
     <script src="script.js"></script>
     <script src="modal.js"></script>
+    <script src="/form-validation.js"></script>
   </body>
 </html>
