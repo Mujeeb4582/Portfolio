@@ -4,8 +4,10 @@ const userMsg = document.querySelector('#message');
 const userForm = document.querySelector('#contact');
 const body = document.querySelector('body');
 
+// retrieve data from localStorage
 const retrieveData = localStorage.getItem('info');
 
+// load the body on browser refresh and pre-fill the form
 body.onload = () => {
   if (retrieveData) {
     const previousData = JSON.parse(retrieveData);
