@@ -4,10 +4,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: 'images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
@@ -25,10 +25,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: '/images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
@@ -46,10 +46,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: 'images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
@@ -67,10 +67,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: 'images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
@@ -88,10 +88,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: 'images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
@@ -109,10 +109,10 @@ const workData = [
     title: 'Keeping tracks of hunders of components',
     projectDetail:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: 'images/popup-mobile-image1.png',
-    desktopImg: 'images/popup-desktop-image.svg',
-    githubIcon: 'images/popup-github.svg',
-    liveIcon: 'images/popup-live.svg',
+    mobileImg: './images/popup-mobile-image1.png',
+    desktopImg: './images/popup-desktop-image.svg',
+    githubIcon: './images/popup-github.svg',
+    liveIcon: './images/popup-live.svg',
     mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
     desktopTech: [
       'Codekit',
