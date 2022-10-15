@@ -161,12 +161,12 @@ function dynamicpro(proidx) {
   )}</ul>
   <p class="popup-details">${myWork.projectDetail}</p>
   <div class="popup-action-btn">
-    <button><a href="${myWork.liveLink}">See Live</a><img src="${
+    <button>See Live<a href="${myWork.liveLink}"><img src="${
   myWork.liveIcon
-}" alt="Go-live"></button>
-    <button><a href="${myWork.sourceLink}">See Source</a><img src="${
+}" alt="Go-live"></a></button>
+    <button>See Source<a href="${myWork.sourceLink}"><img src="${
   myWork.githubIcon
-}" alt="Gitub-file"></button>
+}" alt="Gitub-file"></a></button>
   </div>
   </div>
   </div>
