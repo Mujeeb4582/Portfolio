@@ -316,21 +316,24 @@
       <div class="form">
         <input
           type="text"
+          class="input"
           name="user_name"
+          id = "user_name"
           placeholder="Full name"
           maxlength="30"
           required />
 
         <input
           type="email"
+          class="input"
           id="email"
           name="email_address"
           placeholder="Email address"
           required />
-        <textarea name="message" id="message" maxlength="300" required>
+        <textarea class="input" name="message" id="message" maxlength="300" required>
 Typing something</textarea
         >
-          <button class="dtouch" type="submit">Get in touch</button>
+          <button class="dtouch" id ="btn" type="submit">Get in touch</button>
           <small id="error"></small>
       </div>
     </form>
@@ -375,6 +378,7 @@ Typing something</textarea
     <!-- Social section end -->
     <script src="modal.js"></script>
     <script src="form-validation.js"></script>
+    <script src="storage.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
