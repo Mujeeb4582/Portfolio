@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="stylesheet" href="modal.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="modal.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
@@ -21,7 +21,7 @@
           <li><a class="menuItem" href="#about">About</a></li>
           <li><a class="menuItem" href="#contact">Contact</a></li>
         </ul>
-        <button class="hamburger">
+        <button type="menu" class="hamburger">
           <!-- material icons https://material.io/resources/icons/ -->
           <i class="menuIcon material-icons">menu</i>
           <i class="closeIcon material-icons">close</i>
@@ -97,7 +97,7 @@
         <div class="indicator"></div>
       </div>
       <div class="grid-container">
-        <div class="work">
+        <div class="work" id="project1">
           <div class="grid-item2">
             <div class="img-holder">
               <img src="./images/Img Plaholder.png" alt="My Works" />
@@ -112,13 +112,16 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(0)" class="project dproject" type="button">
-              <a href="#">See Project</a>
+            <button
+              onclick="dynamicpro(0)"
+              class="project dproject"
+              type="button">
+              <a href="#project1">See Project</a>
             </button>
           </div>
         </div>
 
-        <div class="work">
+        <div class="work" id="project2">
           <div class="grid-item2">
             <div class="img-holder">
               <img src="./images/Img Plaholder.png" alt="My Works" />
@@ -133,13 +136,16 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(1)" class="project dproject" type="button">
-              <a href="#">See Project</a>
+            <button
+              onclick="dynamicpro(1)"
+              class="project dproject"
+              type="button">
+              <a href="#project2">See Project</a>
             </button>
           </div>
         </div>
 
-        <div class="work">
+        <div class="work" id="project3">
           <div class="grid-item2">
             <div class="img-holder">
               <img src="./images/Img Plaholder.png" alt="My Works" />
@@ -153,13 +159,16 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(2)" class="project dproject" type="button">
-              <a href="#">See Project</a>
+            <button
+              onclick="dynamicpro(2)"
+              class="project dproject"
+              type="button">
+              <a href="#project3">See Project</a>
             </button>
           </div>
         </div>
 
-        <div class="work">
+        <div class="work" id="project4">
           <div class="grid-item2">
             <div class="img-holder">
               <img src="./images/Img Plaholder.png" alt="My Works" />
@@ -173,13 +182,16 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(3)" class="project dproject" type="button">
-              <a href="#">See Project</a>
+            <button
+              onclick="dynamicpro(3)"
+              class="project dproject"
+              type="button">
+              <a href="#project4">See Project</a>
             </button>
           </div>
         </div>
 
-        <div class="work">
+        <div class="work" id="project5">
           <div class="grid-item2">
             <div class="img-holder">
               <img src="./images/Img Plaholder.png" alt="My Works" />
@@ -194,8 +206,11 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(4)" class="project dproject" type="button">
-              <a href="#">See Project</a>
+            <button
+              onclick="dynamicpro(4)"
+              class="project dproject"
+              type="button">
+              <a href="#project5">See Project</a>
             </button>
           </div>
         </div>
@@ -214,7 +229,10 @@
               <li>JavaScript</li>
               <li>html</li>
             </ul>
-            <button onclick="dynamicpro(5)" class="project dproject" type="button">
+            <button
+              onclick="dynamicpro(5)"
+              class="project dproject"
+              type="button">
               <a href="#project6">See Project</a>
             </button>
           </div>
@@ -318,7 +336,7 @@
           type="text"
           class="input"
           name="user_name"
-          id = "user_name"
+          id="user_name"
           placeholder="Full name"
           maxlength="30"
           required />
@@ -330,11 +348,16 @@
           name="email_address"
           placeholder="Email address"
           required />
-        <textarea class="input" name="message" id="message" maxlength="300" required>
+        <textarea
+          class="input"
+          name="message"
+          id="message"
+          maxlength="300"
+          required>
 Typing something</textarea
         >
-          <button class="dtouch" id ="btn" type="submit">Get in touch</button>
-          <small id="error"></small>
+        <button class="dtouch" id="btn" type="submit">Get in touch</button>
+        <small id="error"></small>
       </div>
     </form>
 
