@@ -1,14 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# My Portfolio ![Portfolio](https://img.shields.io/badge/-Portfolio-Green)
 
-> This is the first mobile-portfolio design. This project is best for beginners who want to learn web development. If you are also interested in learning, follow the below steps.
+> This is my personal portfolio website, meant to showcase my skills as a software developer built with HTML, CSS, and JavaScript. It was made ![](https://img.shields.io/badge/Microverse-blueviolet) as a month-long project to get us up to speed with the building blocks of the web.
 
 
 
 ## Built With
 
-- HTML & CSS
+- ![HTML](https://img.shields.io/badge/-HTML-orange) 
+- ![CSS](https://img.shields.io/badge/-CSS-blue) 
+- ![EsLint](https://img.shields.io/badge/-EsLint-yellow)
 
 ## Live Demo
 
@@ -17,13 +19,14 @@
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the current project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Browser and git
+- Browser  ![Chrome](https://img.shields.io/badge/-Chrome-green) or ![firefox](https://img.shields.io/badge/-firefox-orange) 
+- Git
 
 ### Install
 git clone https://github.com/Mujeeb4582/Portfolio.git
@@ -34,7 +37,7 @@ Open in browser
 
 ## Authors
 
-👤 **Author1**
+👤 **Mujeeb ur Rahman**
 
 - GitHub: [@Mujeeb4582](https://github.com/Mujeeb4582)
 - Twitter: [@Mujeebu93992980](https://twitter.com/Mujeebu93992980)
