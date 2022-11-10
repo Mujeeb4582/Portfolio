@@ -1,66 +1,45 @@
 const workData = [
   {
     projectNumber: 1,
-    title: 'Keeping tracks of hunders of components',
+    title: 'Daily ToDo Task',
     projectDetail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: './images/popup-mobile-image1.png',
-    desktopImg: './images/popup-desktop-image.svg',
+      "A website that lets you add list of to do task that helps you to organize your day. It lists the tasks that you need to do and allows you to mark them as complete. It uses local-storage to store the data.It was built as an introduction to web dev using ES6 and Webpack.",
+    mobileImg: './ProjectImages/to-do-list.png',
+    desktopImg: './ProjectImages/to-do-list-desktop.png',
     githubIcon: './images/popup-github.svg',
     liveIcon: './images/popup-live.svg',
-    mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopTech: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
-    liveLink: 'https://mujeeb4582.github.io/Portfolio/',
+    mobileTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
+    desktopTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
+    sourceLink: 'https://github.com/Mujeeb4582/List-of-to-do-task',
+    liveLink: 'https://mujeeb4582.github.io/List-of-to-do-task/dist/?#',
   },
   {
     projectNumber: 2,
-    title: 'Keeping tracks of hunders of components',
+    title: 'Awesome Books',
     projectDetail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: './images/popup-mobile-image1.png',
-    desktopImg: './images/popup-desktop-image.svg',
+      "A website that lets you add books with their author. It uses local-storage to store the data.",
+    mobileImg: './ProjectImages/Awesome-books/awesomebooklistmobile.png',
+    desktopImg: './ProjectImages/Awesome-books/awesome_books_list.png',
     githubIcon: './images/popup-github.svg',
     liveIcon: './images/popup-live.svg',
-    mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopTech: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
-    liveLink: 'https://mujeeb4582.github.io/Portfolio/',
+    mobileTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
+    desktopTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
+    sourceLink: 'https://github.com/Mujeeb4582/Awesome-Books-with-ES6',
+    liveLink: 'https://mujeeb4582.github.io/Awesome-Books-with-ES6/',
   },
   {
     projectNumber: 3,
-    title: 'Keeping tracks of hunders of components',
+    title: 'Hello! Sharing world DIGITAL YOUTH GLOBAL SUMMIT 2019',
     projectDetail:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: './images/popup-mobile-image1.png',
-    desktopImg: './images/popup-desktop-image.svg',
+      "A fun festival where people from more than 80 countries who believe in the value of sharing and openness and create positive change gather and share ideas will be held in Pakistan in October.",
+    mobileImg: './ProjectImages/Capstone/Mobiledetailcapstone.png',
+    desktopImg: './ProjectImages/Capstone/Desktop_image.png',
     githubIcon: './images/popup-github.svg',
     liveIcon: './images/popup-live.svg',
-    mobileTech: ['Ruby on Rails', 'CSS', 'JavaScript'],
-    desktopTech: [
-      'Codekit',
-      'Github',
-      'JavaScript',
-      'Bootstrap',
-      'Terminal',
-      'Codepen',
-    ],
-    sourceLink: 'https://github.com/Mujeeb4582/Portfolio',
-    liveLink: 'https://mujeeb4582.github.io/Portfolio/',
+    mobileTech: ['HTML', 'CSS', 'JavaScript', 'Git', 'ESLint'],
+    desktopTech: ['HTML', 'CSS', 'JavaScript', 'Git', 'ESLint'],
+    sourceLink: 'https://github.com/Mujeeb4582/FirstCapStone',
+    liveLink: 'https://mujeeb4582.github.io/FirstCapStone/',
   },
   {
     projectNumber: 4,
@@ -161,10 +140,10 @@ function dynamicpro(proidx) {
   )}</ul>
   <p class="popup-details">${myWork.projectDetail}</p>
   <div class="popup-action-btn">
-    <button>See Live<a href="${myWork.liveLink}"><img src="${
+    <button><a href="${myWork.liveLink}">See Live<img src="${
   myWork.liveIcon
 }" alt="Go-live"></a></button>
-    <button>See Source<a href="${myWork.sourceLink}"><img src="${
+    <button><a href="${myWork.sourceLink}">See Source<img src="${
   myWork.githubIcon
 }" alt="Gitub-file"></a></button>
   </div>

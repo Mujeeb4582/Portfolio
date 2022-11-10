@@ -141,18 +141,6 @@ button a:hover {
   animation: 3s slidetop;
 }
 
-@keyframes slidetop {
-  from {
-    margin-top: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-top: 7.1%;
-    width: 100%;
-  }
-}
-
 .hero-container span {
   color: #14975acf;
 }
@@ -193,7 +181,8 @@ button a:hover {
 }
 
 .img-holder img {
-  width: 60%;
+  width: 80%;
+  border-radius: 10px;
 }
 
 .action-btn img:hover {
@@ -219,13 +208,15 @@ button a:hover {
   flex-direction: column;
   justify-content: center;
   transition: all 0.5s linear;
+  border: 2px solid #d1d1d1;
+  border-radius: 10px;
 }
 
 .work:hover {
-  width: 110%;
-  height: 110%;
-  border: solid #36b37e 8px;
-  border-radius: 18px;
+  width: 101%;
+  height: 101%;
+  border: solid #36b37e 4px;
+  border-radius: 12px;
   z-index: 1;
 }
 
