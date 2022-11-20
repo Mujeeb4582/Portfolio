@@ -180,8 +180,14 @@ button a:hover {
   transition: all 0.5s linear;
 }
 
+.img-holder-1 img {
+  width: 90%;
+  height: 365px;
+  border-radius: 10px;
+}
+
 .img-holder img {
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -592,6 +598,11 @@ form textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .img-holder-1 img {
+    width: 100%;
+    height: 365px;
   }
 
   .img-holder img {

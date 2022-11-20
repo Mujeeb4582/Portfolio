@@ -4,14 +4,14 @@ const workData = [
     title: 'Daily ToDo Task',
     projectDetail:
       "A website that lets you add list of to do task that helps you to organize your day. It lists the tasks that you need to do and allows you to mark them as complete. It uses local-storage to store the data.It was built as an introduction to web dev using ES6 and Webpack.",
-    mobileImg: './ProjectImages/to-do-list.png',
-    desktopImg: './ProjectImages/to-do-list-desktop.png',
+    mobileImg: './ProjectImages/List-of-to-do.gif',
+    desktopImg: './ProjectImages/List-of-to-do.gif',
     githubIcon: './images/popup-github.svg',
     liveIcon: './images/popup-live.svg',
     mobileTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
     desktopTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack'],
-    sourceLink: 'https://github.com/Mujeeb4582/List-of-to-do-task',
-    liveLink: 'https://mujeeb4582.github.io/List-of-to-do-task/dist/?#',
+    sourceLink: 'https://github.com/Mujeeb4582/To-Do-List-App',
+    liveLink: 'https://mujeeb4582.github.io/To-Do-List-App/dist/',
   },
   {
     projectNumber: 2,
