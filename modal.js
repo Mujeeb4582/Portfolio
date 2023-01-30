@@ -3,7 +3,7 @@ const workData = [
     projectNumber: 1,
     title: 'Daily ToDo Task',
     projectDetail:
-      "A website that lets you add list of to do task that helps you to organize your day. It lists the tasks that you need to do and allows you to mark them as complete. It uses local-storage to store the data.It was built as an introduction to web dev using ES6 and Webpack.",
+      'A website that lets you add list of to do task that helps you to organize your day. It lists the tasks that you need to do and allows you to mark them as complete. It uses local-storage to store the data.It was built as an introduction to web dev using ES6 and Webpack.',
     mobileImg: './ProjectImages/List-of-to-do.gif',
     desktopImg: './ProjectImages/List-of-to-do.gif',
     githubIcon: './images/popup-github.svg',
@@ -17,7 +17,7 @@ const workData = [
     projectNumber: 2,
     title: 'Awesome Books',
     projectDetail:
-      "A website that lets you add books with their author. It uses local-storage to store the data.",
+      'A website that lets you add books with their author. It uses local-storage to store the data.',
     mobileImg: './ProjectImages/Awesome-books/awesomebooklistmobile.png',
     desktopImg: './ProjectImages/Awesome-books/awesome_books_list.png',
     githubIcon: './images/popup-github.svg',
@@ -31,7 +31,7 @@ const workData = [
     projectNumber: 3,
     title: 'Hello! Sharing world DIGITAL YOUTH GLOBAL SUMMIT 2019',
     projectDetail:
-      "A fun festival where people from more than 80 countries who believe in the value of sharing and openness and create positive change gather and share ideas will be held in Pakistan in October.",
+      'A fun festival where people from more than 80 countries who believe in the value of sharing and openness and create positive change gather and share ideas will be held in Pakistan in October.',
     mobileImg: './ProjectImages/Capstone/Mobiledetailcapstone.png',
     desktopImg: './ProjectImages/Capstone/Desktop_image.png',
     githubIcon: './images/popup-github.svg',
