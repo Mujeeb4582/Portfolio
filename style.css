@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -138,7 +138,6 @@ button a:hover {
   color: #172b4d;
   margin-bottom: 36px;
   margin-top: 64px;
-  animation: 3s slidetop;
 }
 
 .hero-container span {
@@ -507,8 +506,9 @@ form textarea {
   .background-img {
     background-image: url(./images/Header-llustration-desktop.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    margin-bottom: 48px;
+    margin-bottom: 3em;
   }
 
   .mobile-nav {
@@ -518,10 +518,10 @@ form textarea {
   header {
     position: absolute;
     left: 40%;
-    top: 16px;
+    top: 1rem;
     gap: 8px;
-    width: 255px;
-    height: 40px;
+    min-width: 255px;
+    min-height: 40px;
   }
 
   .desktop-nav {
@@ -538,8 +538,8 @@ form textarea {
 
   .desktop-nav li a {
     font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     color: #344563;
     transition: all 0.5s linear;
   }
@@ -555,22 +555,28 @@ form textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 160px 0;
+    justify-content: center;
+    padding: 10em 0;
     gap: 24px;
+    min-width: 100%;
+  }
+
+  .hero-container {
+    max-width: 60%;
   }
 
   .hero-container h1 {
     font-weight: 800;
-    font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 0;
-    margin-top: 70px;
+    font-size: calc(1rem + 2.5vw);
+    line-height: 3.75rem;
+    margin: 0;
   }
 
   .hero-container p,
   .about p {
-    line-height: 32px;
-    margin: 0 260px;
+    margin-top: 0.6em;
+    font-size: calc(0.9rem + 0.5vw);
+    line-height: 2rem;
   }
 
   .social-container ul {
