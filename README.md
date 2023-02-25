@@ -4,7 +4,8 @@
 
 > This is my personal portfolio website, meant to showcase my skills as a software developer built with HTML, CSS, and JavaScript. It was made ![](https://img.shields.io/badge/Microverse-blueviolet) as a month-long project to get us up to speed with the building blocks of the web.
 
-
+## ScreenShot
+![all-devices-black (1)](https://user-images.githubusercontent.com/109666020/221372556-d438038d-04d9-44b2-bce7-918a49a1b4f5.png)
 
 ## Built With
 
