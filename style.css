@@ -1,35 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .background-img {
   background-image: url(./images/header-illsutration-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.menu a {
-  color: #3a4a42;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
 }
 
 .social-contact a {
@@ -41,83 +13,6 @@ a {
 
 button a:hover {
   color: #172b4d;
-}
-
-/* Navigator */
-
-.mobile-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 24px;
-  margin-top: 44px;
-  height: 48px;
-}
-
-/* responsive nav */
-
-.menuItem {
-  display: block;
-  margin: 2rem 4rem;
-  font-size: 1.8rem;
-  color: white;
-  text-decoration: none;
-}
-
-.hamburger {
-  position: fixed;
-  top: 3rem;
-  right: 1.5rem;
-  padding: 8px 8px 8px 8px;
-  background: white;
-  cursor: pointer;
-}
-
-.hamburger .closeIcon {
-  display: none;
-}
-
-.menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  color: black;
-  list-style: none;
-  padding-top: 6rem;
-  margin-left: -48px;
-}
-
-.showMenu {
-  transform: translateY(0);
-}
-
-/* responsive nav end */
-
-.desktop-nav {
-  display: none;
-}
-
-.menu a:hover {
-  background-color: #36b37e;
-  color: #fff;
-  border-radius: 5px;
-  padding: 5px 10px;
-}
-
-.mobile-nav .logo {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-}
-
-.mobile-nav .logo a {
-  text-decoration: none;
-  color: #28352f;
 }
 
 /* Hero-container */
@@ -509,46 +404,6 @@ form textarea {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 3em;
-  }
-
-  .mobile-nav {
-    display: none;
-  }
-
-  header {
-    position: absolute;
-    left: 40%;
-    top: 1rem;
-    gap: 8px;
-    min-width: 255px;
-    min-height: 40px;
-  }
-
-  .desktop-nav {
-    display: block;
-    margin-left: -98px;
-  }
-
-  .desktop-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-  }
-
-  .desktop-nav li a {
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    color: #344563;
-    transition: all 0.5s linear;
-  }
-
-  .desktop-nav li a:hover {
-    background-color: #36b37e;
-    color: #fff;
-    border-radius: 5px;
-    padding: 5px 10px;
   }
 
   .headline-container {
