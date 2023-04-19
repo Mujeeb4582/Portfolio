@@ -90,16 +90,12 @@ nav .showMenu {
     line-height: 1.25rem;
     color: var(--navMenuItemDesktop);
     transition: all 0.5s linear;
-  }
-
-  nav .menu .menu-item.active {
-    background-color: var(--lightGreen);
+    border-radius: 5px;
+    padding: 5px 10px;
   }
 
   nav .menu .menu-item:hover {
     background-color: var(--lightGreen);
     color: var(--primaryWhite);
-    border-radius: 5px;
-    padding: 5px 10px;
   }
 }
