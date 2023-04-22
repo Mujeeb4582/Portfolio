@@ -38,8 +38,8 @@ Open in browser ![Chrome](https://img.shields.io/badge/-Chrome-green) or ![firef
 👤 **Mujeeb ur Rahman**
 
 - GitHub: [@Mujeeb4582](https://github.com/Mujeeb4582)
-- Twitter: [@Mujeebu93992980](https://twitter.com/Mujeebu93992980)
-- LinkedIn: [mujeeb-ur-rahman-54268011a](https://linkedin.com/in/mujeeb-ur-rahman-54268011a)
+- Twitter: [@Mujeeb](https://twitter.com/Mujeebu93992980)
+- LinkedIn: [mujeeb-ur-rahman](https://www.linkedin.com/in/rahman-mujeeb/)
 
 ## 🤝 Contributing
 
