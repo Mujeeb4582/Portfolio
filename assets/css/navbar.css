@@ -75,12 +75,15 @@ nav .showMenu {
     transform: translateY(0);
     display: flex;
     top: auto;
-    left: auto;
+    left: 0;
     right: auto;
     bottom: auto;
-    padding: 0;
     gap: 50px;
-    margin-top: 1rem;
+    margin: 0;
+    background: transparent;
+    padding: 20px 0;
+    min-width: 100%;
+    justify-content: center;
   }
 
   nav .menu .menu-item {
@@ -97,5 +100,10 @@ nav .showMenu {
   nav .menu .menu-item:hover {
     background-color: var(--lightGreen);
     color: var(--primaryWhite);
+  }
+
+  .nav-border-bottom-blurred-bg {
+    border-bottom: 2px solid #60c09577;
+    backdrop-filter: blur(8px);
   }
 }
