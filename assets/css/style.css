@@ -23,14 +23,14 @@ button a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #172b4d;
+  text-align: center;
 }
 
 .hero-container h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  text-align: center;
-  color: #172b4d;
   margin-bottom: 36px;
   margin-top: 64px;
 }
@@ -40,8 +40,6 @@ button a:hover {
 }
 
 .hero-container p {
-  text-align: center;
-  color: #172b4d;
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
@@ -69,7 +67,6 @@ button a:hover {
 }
 
 /* work section start */
-
 .action-btn img {
   transition: all 0.5s linear;
 }
@@ -91,11 +88,12 @@ button a:hover {
   border-radius: 50%;
 }
 
-.grid-item1 {
+.profile-content,
+.about-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 22px 26px 62px 26px;
+  margin: 0 26px 62px 26px;
   text-align: center;
 }
 
@@ -108,14 +106,17 @@ button a:hover {
   flex-direction: column;
   justify-content: center;
   transition: all 0.5s linear;
-  border: 2px solid #d1d1d1;
+  border: 1px solid #d1d1d1;
   border-radius: 10px;
+  transition: transform 1s;
+  box-shadow: 0 2px 4px -1px #0000004d;
 }
 
-.work:hover {
-  width: 101%;
-  height: 101%;
-  border: solid #36b37e 4px;
+.work:hover,
+.lang-section:hover,
+.frameworks:hover,
+.skills:hover {
+  transform: scale(1.05);
   border-radius: 12px;
   z-index: 1;
 }
@@ -129,7 +130,8 @@ button a:hover {
   text-align: center;
 }
 
-.headline {
+.title {
+  margin-top: 80px;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -165,8 +167,8 @@ button a:hover {
 }
 
 .frame-list {
-  list-style-type: none;
   display: flex;
+  list-style-type: none;
   gap: 8px;
   margin-left: -34px;
 }
@@ -183,13 +185,14 @@ button a:hover {
 .skills-list li {
   border: 1px solid #d0d9d4;
   background-color: #ebf0ee;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 8px 12px;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
+  box-shadow: 0 2px 4px -1px #0000004d;
 }
 
 .lang2 li,
@@ -199,9 +202,8 @@ button a:hover {
   color: #172b4d;
 }
 
-.background-about {
-  background-image:
-    url(/images/about-mobile-top.png),
+.about-background-image {
+  background-image: url(/images/about-mobile-top.png),
     url(/images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left 90%;
@@ -212,6 +214,7 @@ button a:hover {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
+  margin-top: 1rem;
   margin-bottom: -42px;
 }
 
@@ -243,12 +246,6 @@ button:hover {
   border: 1px solid #36b37e;
 }
 
-.lang-background {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .Language,
 .frame-title,
 .Skills-title {
@@ -263,28 +260,16 @@ button:hover {
 .frameworks,
 .skills {
   display: flex;
-  background-color: #ebf0ee;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ebf1ee;
+  border: 1px solid #d0d9d4;
   justify-content: center;
   padding: 20px 0 80px 0;
   margin: 0 12px 24px 12px;
   border-radius: 10px;
-}
-
-.frameworks,
-.skills {
-  flex-direction: column;
-  align-items: center;
-  background-color: #ebf0ee;
-}
-
-.lang-section:hover,
-.frameworks:hover,
-.skills:hover {
-  width: 110%;
-  height: 110%;
-  border: solid 10px #36b37e;
-  border-radius: 10px;
-  z-index: 1;
+  transition: transform 1s;
+  box-shadow: 0 2px 4px -1px #0000004d;
 }
 
 .lang-icon,
@@ -490,9 +475,8 @@ form textarea {
 
   /* About section */
 
-  .background-about {
-    background-image:
-      url(/images/About-upper-pic.png),
+  .about-background-image {
+    background-image: url(/images/About-upper-pic.png),
       url(/images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
@@ -514,11 +498,8 @@ form textarea {
   /* form start */
 
   form {
-    margin-top: 48px;
-    background-image:
-      url(/images/desktop-form-1.png),
-      url(/images/desktop-form-2.png),
-      url(/images/desktop-form-3.png);
+    background-image: url(/images/desktop-form-1.png),
+      url(/images/desktop-form-2.png), url(/images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
     display: grid;
@@ -536,6 +517,7 @@ form textarea {
   .form {
     align-items: flex-start;
     width: 90%;
+    margin-top: 40px;
   }
 
   .dtouch {
