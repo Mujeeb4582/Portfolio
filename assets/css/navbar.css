@@ -1,5 +1,6 @@
 nav {
   margin-top: 44px;
+  z-index: 10;
 }
 
 nav .logo a {
@@ -40,6 +41,7 @@ nav .hamburger {
   background: var(--primaryWhite);
   cursor: pointer;
   border: none;
+  z-index: 10;
 }
 
 nav .hamburger .closeIcon {
