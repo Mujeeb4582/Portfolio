@@ -1,5 +1,5 @@
 .background-img {
-  background-image: url(images/header-illsutration-mobile.png);
+  background-image: url(../../images/header-illsutration-mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -210,8 +210,8 @@
 }
 
 .about-background-image {
-  background-image: url(images/about-mobile-top.png),
-    url(images/about-mobile-bottom.png);
+  background-image: url(../../images/about-mobile-top.png),
+    url(../../images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left 90%;
 }
@@ -331,7 +331,7 @@ button:hover,
 /* form styling start here */
 
 form {
-  background-image: url(images/illustration-contact-form.svg);
+  background-image: url(../../images/illustration-contact-form.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
   width: 100%;
@@ -413,7 +413,7 @@ form textarea {
 
 @media (min-width: 768px) {
   .background-img {
-    background-image: url(images/Header-llustration-desktop.png);
+    background-image: url(../../images/Header-llustration-desktop.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -501,8 +501,8 @@ form textarea {
   /* About section */
 
   .about-background-image {
-    background-image: url(images/About-upper-pic.png),
-      url(images/about-lower-picture.png);
+    background-image: url(../../images/About-upper-pic.png),
+      url(../../images/about-lower-picture.png);
     background-repeat: no-repeat, no-repeat;
     background-position: right top, left bottom;
   }
@@ -523,8 +523,8 @@ form textarea {
   /* form start */
 
   form {
-    background-image: url(images/desktop-form-1.png),
-      url(images/desktop-form-2.png), url(images/desktop-form-3.png);
+    background-image: url(../../images/desktop-form-1.png),
+      url(../../images/desktop-form-2.png), url(../../images/desktop-form-3.png);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: right bottom, 20% 80%, left bottom;
     display: grid;
