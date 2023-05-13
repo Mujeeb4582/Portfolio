@@ -4,36 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="modal.css" type="text/css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/navbar.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/modal.css" type="text/css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <title>Mujeeb Portfolio</title>
   </head>
+
   <body>
     <!-- First page start -->
     <header>
-      <nav class="mobile-nav">
+      <nav class="navbar">
         <div class="logo"><a href="#">Welcome</a></div>
         <ul class="menu">
-          <li><a class="menuItem" href="#profile">Work</a></li>
-          <li><a class="menuItem" href="#about">About</a></li>
-          <li><a class="menuItem" href="#contact">Contact</a></li>
+          <li><a class="menu-item profile" href="#profile">Work</a></li>
+          <li><a class="menu-item about" href="#about">About</a></li>
+          <li><a class="menu-item contact" href="#contact">Contact</a></li>
         </ul>
-        <button type="menu" class="hamburger">
+        <button type="button" class="hamburger">
           <!-- material icons https://material.io/resources/icons/ -->
           <i class="menuIcon material-icons">menu</i>
           <i class="closeIcon material-icons">close</i>
         </button>
-      </nav>
-
-      <nav class="desktop-nav">
-        <ul>
-          <li><a href="#profile">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
       </nav>
     </header>
 
@@ -44,9 +40,11 @@
             Hey there. I'm Mujeeb <br /><span>I'm a software developer</span>
           </h1>
           <p>
-            I can help you bulid a product, feature or website. Look through
-            some of my work and experience! If you like what you see and have a
-            project you need coded, don't hestiate to contact me.
+            Are you looking for a FullStack web-developer to bring your project
+            to life? Look no further! With my experience and expertise, I can
+            help you build a product, feature, or website that not only meets
+            your needs but exceeds your expectations. Don't wait any longer -
+            contact me today to get started on your next big project!
           </p>
         </section>
 
@@ -63,7 +61,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://medium.com/@mujeeburahman4582">
                 <img src="./images/medium.svg" alt="Medium-icon" />
               </a>
             </li>
@@ -73,7 +71,7 @@
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wellfound.com/u/mujeeb-rrahman">
                 <img src="./images/angellist.svg" alt="angellist-icon" />
               </a>
             </li>
@@ -92,69 +90,72 @@
     <!--Work section start -->
 
     <section id="profile">
-      <div class="grid-item1">
-        <h2 class="headline">My Recent Works</h2>
+      <div class="profile-content">
+        <h2 class="title">My Recent Works</h2>
         <div class="indicator"></div>
       </div>
-      <div class="grid-container">
-        <div class="work" id="project1">
+      <div class="project-container">
+        <div class="work">
           <div class="grid-item2">
-            <div class="img-holder-1">
+            <div class="img-holder">
               <img src="./ProjectImages/List-of-to-do.gif" alt="to-do-list" />
             </div>
           </div>
 
           <div class="grid-item3">
-            <h3 class="project-title">Daily ToDo Task </h3>
+            <h3 class="project-title">Daily ToDo Task</h3>
             <ul class="lang">
               <li>HTML</li>
               <li>CSS</li>
               <li>ES6 JavaScript</li>
               <li>Webpack</li>
               <li>Git</li>
+              <li>Eslint</li>
             </ul>
-            <button
-              onclick="dynamicpro(0)"
-              class="project dproject"
-              type="button">
-              <a href="#project1">See Project</a>
+            <button onclick="dynamicpro(0)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
 
-        <div class="work" id="project2">
+        <div class="work">
           <div class="grid-item2">
             <div class="img-holder">
-              <img src="./ProjectImages/Awesome-books/awesomebooklistmobile.png" alt="My Works" />
+              <img
+                src="https://user-images.githubusercontent.com/109666020/221373541-9bd0ac0a-5c0f-4e19-b430-b6c81ba1f2bd.png"
+                alt="BookstoreCMS"
+              />
             </div>
           </div>
 
           <div class="grid-item3">
-            <h3 class="project-title">Awesome Books</h3>
+            <h3 class="project-title">Bookstore CMS</h3>
             <ul class="lang">
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>TailWindCSS</li>
               <li>ES6 JavaScript</li>
-              <li>Webpack</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Rest Api</li>
+              <li>Unit Testing</li>
               <li>Git</li>
             </ul>
-            <button
-              onclick="dynamicpro(1)"
-              class="project dproject"
-              type="button">
-              <a href="#project2">See Project</a>
+            <button onclick="dynamicpro(1)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
 
-        <div class="work" id="project3">
+        <div class="work">
           <div class="grid-item2">
             <div class="img-holder">
-              <img src="./ProjectImages/Capstone/capstone_mobile.png" alt="DIGITAL YOUTH GLOBAL SUMMIT 2019" />
+              <img
+                src="https://user-images.githubusercontent.com/109666020/221826371-cfaab064-8709-4584-bd02-6335c4aa9b24.png"
+                alt="DIGITAL YOUTH GLOBAL SUMMIT 2019"
+              />
             </div>
           </div>
           <div class="grid-item3">
-            <h3 class="project-title">Hello! Sharing world DIGITAL YOUTH GLOBAL SUMMIT 2019</h3>
+            <h3 class="project-title">GLOBAL SUMMIT</h3>
             <ul class="lang">
               <li>HTML</li>
               <li>CSS</li>
@@ -162,81 +163,95 @@
               <li>ESLint</li>
               <li>Git</li>
             </ul>
-            <button
-              onclick="dynamicpro(2)"
-              class="project dproject"
-              type="button">
-              <a href="#project3">See Project</a>
+            <button onclick="dynamicpro(2)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
 
-        <div class="work" id="project4">
+        <div class="work">
           <div class="grid-item2">
             <div class="img-holder">
-              <img src="./images/Img Plaholder.png" alt="My Works" />
+              <img
+                src="https://user-images.githubusercontent.com/109666020/233276256-d9d4a9ef-2968-40a2-b8b6-ba128f8e62da.png"
+                alt="Space-X"
+              />
             </div>
           </div>
           <div class="grid-item3">
-            <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
+            <h3 class="project-title">Space-X</h3>
             <ul class="lang">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>JavaScript</li>
-              <li>html</li>
+              <li>TailWindCSS</li>
+              <li>ES6 JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Rest Api</li>
+              <li>Unit Testing</li>
+              <li>Git</li>
+              <li>Pair-Programming</li>
             </ul>
-            <button
-              onclick="dynamicpro(3)"
-              class="project dproject"
-              type="button">
-              <a href="#project4">See Project</a>
+            <button onclick="dynamicpro(3)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
 
-        <div class="work" id="project5">
+        <div class="work">
           <div class="grid-item2">
             <div class="img-holder">
-              <img src="./images/Img Plaholder.png" alt="My Works" />
+              <img
+                src="https://raw.githubusercontent.com/Mujeeb4582/Air-Pollution-App/dev/src/images/HomePage.jpeg"
+                alt="Air-Pollution-App"
+                class="img-1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/Mujeeb4582/Air-Pollution-App/dev/src/images/DetailsPage.jpeg"
+                alt="Air-Pollution-App"
+                class="img-2"
+              />
             </div>
           </div>
 
           <div class="grid-item3">
-            <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
+            <h3 class="project-title">Air-Pollution-App</h3>
             <ul class="lang">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>JavaScript</li>
-              <li>html</li>
+              <li>Bootstrap</li>
+              <li>ES6 JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Rest Api</li>
+              <li>Unit Testing</li>
+              <li>Git</li>
             </ul>
-            <button
-              onclick="dynamicpro(4)"
-              class="project dproject"
-              type="button">
-              <a href="#project5">See Project</a>
+            <button onclick="dynamicpro(4)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
 
-        <div class="work" id="project6">
+        <div class="work">
           <div class="grid-item2">
             <div class="img-holder">
-              <img src="./images/Img Plaholder.png" alt="My Works" />
+              <img
+                src="https://github.com/Mujeeb4582/Recipe-app/assets/109666020/59f75a12-75c1-4cc6-b2b3-a14918af0395"
+                alt="Recipe-app"
+              />
             </div>
           </div>
           <div class="grid-item3">
-            <h3 class="project-title">Multi-Post Stories Gain+Glory</h3>
+            <h3 class="project-title">Recipe-App</h3>
             <ul class="lang">
-              <li>Ruby on rails</li>
-              <li>css</li>
-              <li>JavaScript</li>
-              <li>html</li>
+              <li>Ruby on Rails</li>
+              <li>TailWindCSS</li>
+              <li>Rails-Rspec</li>
+              <li>Integration test</li>
+              <li>PostgreSQL</li>
+              <li>Unit test</li>
+              <li>Pair-Programming</li>
+              <li>Rubocop-rails</li>
             </ul>
-            <button
-              onclick="dynamicpro(5)"
-              class="project dproject"
-              type="button">
-              <a href="#project6">See Project</a>
+            <button onclick="dynamicpro(5)" class="project" type="button">
+              See Project
             </button>
           </div>
         </div>
@@ -248,22 +263,38 @@
     <!-- About me section start -->
 
     <section id="about">
-      <div class="background-about">
+      <div class="about-background-image">
         <div class="about-box">
-          <div class="grid-item1">
-            <h2 class="headline">About me</h2>
+          <div class="about-content">
+            <h2 class="title">About me</h2>
+            <div class="indicator"></div>
             <div class="about">
               <p>
-                I can help you bulid a product, feature or website. Look through
-                some of my work and experience! if you like what you see and
-                have a project you need coded, don't hesitate to contact me.
+                I'm passionate about using my skills to develop innovative
+                programs that drive organizational success. With extensive
+                experience in popular frameworks like Reactjs and Ruby-on-Rails,
+                I'm confident in my ability to bring your vision to life. As a
+                skilled mentor, I've successfully managed and motivated teams of
+                5+ developers to build reliable, user-friendly software. I'm a
+                strategic thinker with a knack for developing customized
+                solutions that highlight an organization's core competencies.
+                I'm also a confident communicator, making it easy to collaborate
+                on your project and provide updates along the way. If you're
+                looking to build a new product, feature, or website, look no
+                further! Check out my portfolio to see some of my past work, and
+                let's chat about how I can help bring your ideas to life."
               </p>
             </div>
           </div>
           <div class="about-button">
-            <button class="resume" type="button">
-              <a href="#">Get My Resume</a>
-            </button>
+            <a
+              href="https://drive.google.com/file/d/1Ev6UyOp0oEj8a__1JA7gnufStlT6nVT2/view?usp=sharing"
+              class="resume"
+              target="_blank"
+              rel="noopener"
+            >
+              Get My Resume</a
+            >
           </div>
         </div>
       </div>
@@ -272,18 +303,18 @@
 
       <div class="about-section">
         <div class="lang-section">
-          <div class="lang-background">
-            <div class="lang-icon">
-              <img src="./images/Icon Langguage.png" alt="Lunguage icon" />
-            </div>
-            <h3 class="Language">Languages</h3>
-            <ul class="lang2">
-              <li>JavaScript</li>
-              <li>Ruby</li>
-              <li>Html</li>
-              <li>css</li>
-            </ul>
+          <div class="lang-icon">
+            <img src="./images/Icon Langguage.png" alt="Lunguage icon" />
           </div>
+          <h3 class="Language">Languages</h3>
+          <ul class="lang2">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Python</li>
+            <li>Ruby</li>
+          </ul>
         </div>
 
         <!-- Lunguage end -->
@@ -296,11 +327,15 @@
           </div>
           <h3 class="frame-title">Frameworks</h3>
           <ul class="frame-list">
-            <li>Bootstrap</li>
-            <li>Ruby on rails</li>
+            <li>React/Redux</li>
+            <li>Ruby on Rails</li>
             <li>RSpec</li>
-            <li>Capybara</li>
             <li>Selenium</li>
+            <li>Capybara</li>
+            <li>SCSS</li>
+            <li>TailWindCSS</li>
+            <li>Bootstrap</li>
+            <li>Antd</li>
           </ul>
         </div>
 
@@ -313,11 +348,18 @@
           </div>
           <h3 class="Skills-title">Skills</h3>
           <ul class="skills-list">
-            <li>Codekit</li>
-            <li>GitHub</li>
-            <li>Codepen</li>
-            <li>Gitlab</li>
+            <li>Linux</li>
             <li>Terminal</li>
+            <li>GitHub</li>
+            <li>Git</li>
+            <li>Netlify</li>
+            <li>Render</li>
+            <li>Remote-work</li>
+            <li>Pair-Programming</li>
+            <li>Team-Work</li>
+            <li>Agile-Methodlogies</li>
+            <li>Zoom</li>
+            <li>Slack</li>
           </ul>
         </div>
       </div>
@@ -342,7 +384,8 @@
           id="user_name"
           placeholder="Full name"
           maxlength="30"
-          required />
+          required
+        />
 
         <input
           type="email"
@@ -350,16 +393,17 @@
           id="email"
           name="email_address"
           placeholder="Email address"
-          required />
+          required
+        />
         <textarea
           class="input"
           name="message"
           id="message"
           maxlength="300"
-          required>
-Typing something</textarea
-        >
-        <button class="dtouch" id="btn" type="submit">Get in touch</button>
+          required
+          placeholder="Type something"
+        ></textarea>
+        <button id="btn" type="submit">Get in touch</button>
         <small id="error"></small>
       </div>
     </form>
@@ -402,9 +446,10 @@ Typing something</textarea
     </footer>
 
     <!-- Social section end -->
-    <script src="modal.js"></script>
-    <script src="form-validation.js"></script>
-    <script src="storage.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/form-validation.js"></script>
+    <script src="assets/js/storage.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <!-- <script src="./assets/js/profile.js"></script> -->
   </body>
 </html>

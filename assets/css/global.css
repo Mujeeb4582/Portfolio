@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--text-color-2);
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+  border-radius: 20px;
+}
+
+:root {
+  --primaryWhite: #fff;
+  --primaryBlack: #000;
+  --navMenuItem: #3a4a42;
+  --navMenuItemDesktop: #344563;
+  --lightGreen: #36b37e;
+  --green: #247f59;
+  --blueTitle: #172b4d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      0deg,
+      rgb(166, 195, 34) 0%,
+      rgb(17, 208, 237) 100%
+    );
+}
+
+a {
+  text-decoration: none;
+  color: var(--primaryWhite);
+}
+
+::selection {
+  background-color: #f0f9cf;
+  color: var(--green);
+}
