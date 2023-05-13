@@ -47,9 +47,16 @@
   --navMenuItem: #3a4a42;
   --navMenuItemDesktop: #344563;
   --lightGreen: #36b37e;
+  --green: #247f59;
+  --blueTitle: #172b4d;
 }
 
 a {
   text-decoration: none;
   color: var(--primaryWhite);
+}
+
+::selection {
+  background-color: #f0f9cf;
+  color: var(--green);
 }
