@@ -9,7 +9,7 @@ const workData = [
     githubIcon: './images/popup-github.svg',
     liveIcon: './images/popup-live.svg',
     mobileTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack', 'Eslint'],
-    desktopTech: ["HTML", 'CSS', 'ES6 JavaScript', 'Git', 'Webpack', 'Eslint'],
+    desktopTech: ['HTML', 'CSS', 'ES6 JavaScript', 'Git', 'Webpack', 'Eslint'],
     sourceLink: 'https://github.com/Mujeeb4582/To-Do-List-App',
     liveLink: 'https://mujeeb4582.github.io/To-Do-List-App/dist/',
   },
@@ -49,7 +49,7 @@ const workData = [
     projectNumber: 4,
     title: 'Space-X',
     projectDetail:
-      "This web application offers space travel services for both commercial and scientific purposes. It allows users to reserve rockets and participate in specific space missions. The application is designed to make it easy for people to access and experience the wonders of space travel.",
+      'This web application offers space travel services for both commercial and scientific purposes. It allows users to reserve rockets and participate in specific space missions. The application is designed to make it easy for people to access and experience the wonders of space travel.',
     mobileImg: 'https://repository-images.githubusercontent.com/579898104/cfcbe2c9-84b6-43e8-8974-75a89a4acb61',
     desktopImg: 'https://repository-images.githubusercontent.com/579898104/cfcbe2c9-84b6-43e8-8974-75a89a4acb61',
     githubIcon: './images/popup-github.svg',
@@ -63,7 +63,7 @@ const workData = [
     projectNumber: 5,
     title: 'Air-Pollution-App',
     projectDetail:
-      "This is a web application that is designed to be used on mobile devices such as smartphones or tablets. The primary purpose of the application is to retrieve data on air pollution from an API (which is likely an external data source that provides the information) and display it in a web browser. To build this application, the developers chose to use two popular frameworks called React and Redux. React is a JavaScript library for building user interfaces, while Redux is a state management library that helps manage the data flow of the application. Using these frameworks allowed the developers to build a responsive and dynamic application that is optimized for mobile devices.",
+      'This is a web application that is designed to be used on mobile devices such as smartphones or tablets. The primary purpose of the application is to retrieve data on air pollution from an API (which is likely an external data source that provides the information) and display it in a web browser. To build this application, the developers chose to use two popular frameworks called React and Redux. React is a JavaScript library for building user interfaces, while Redux is a state management library that helps manage the data flow of the application. Using these frameworks allowed the developers to build a responsive and dynamic application that is optimized for mobile devices.',
     mobileImg: 'https://github.com/Mujeeb4582/Recipe-app/assets/109666020/572173ba-ae64-4555-aa0a-6aebf78121c5',
     desktopImg: 'https://github.com/Mujeeb4582/Recipe-app/assets/109666020/572173ba-ae64-4555-aa0a-6aebf78121c5',
     githubIcon: './images/popup-github.svg',
@@ -77,7 +77,7 @@ const workData = [
     projectNumber: 6,
     title: 'Recipe-APP',
     projectDetail:
-      "The Recipe App enables users to conveniently manage their recipes, ingredients, and inventory. Users can save ingredients, track their availability, create recipes, and generate a comprehensive shopping list that takes into account the ingredients they have and those they need for a particular recipe. Moreover, as sharing recipes is a crucial aspect of cooking, the application allows users to make their recipes public for easy access by anyone.",
+      'The Recipe App enables users to conveniently manage their recipes, ingredients, and inventory. Users can save ingredients, track their availability, create recipes, and generate a comprehensive shopping list that takes into account the ingredients they have and those they need for a particular recipe. Moreover, as sharing recipes is a crucial aspect of cooking, the application allows users to make their recipes public for easy access by anyone.',
     mobileImg: 'https://github.com/Mujeeb4582/Recipe-app/assets/109666020/59f75a12-75c1-4cc6-b2b3-a14918af0395',
     desktopImg: 'https://github.com/Mujeeb4582/Recipe-app/assets/109666020/59f75a12-75c1-4cc6-b2b3-a14918af0395',
     githubIcon: './images/popup-github.svg',
@@ -117,10 +117,10 @@ function dynamicpro(proidx) {
   <div class ="modal-details">
   <h3 class="popup-title">${myWork.title}</h3>
   <ul class="popup-items"> ${myWork.mobileTech.map(
-    (ele) => `<li>${ele}</li>`
+    (ele) => `<li>${ele}</li>`,
   ).join('')}</ul>
   <ul class="d-popup-items"> ${myWork.desktopTech.map(
-    (ele) => `<li>${ele}</li>`
+    (ele) => `<li>${ele}</li>`,
   ).join('')}</ul>
   <p class="popup-details">${myWork.projectDetail}</p>
   <div class="popup-action-btn">
