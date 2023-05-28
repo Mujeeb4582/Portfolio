@@ -128,6 +128,13 @@
   padding: 1rem 1rem 1rem 0;
 }
 
+.project-container,
+.about-section {
+  grid-template-columns: 1fr;
+  margin: 0 20px;
+  row-gap: 20px;
+}
+
 .grid-item2 {
   text-align: center;
 }
@@ -556,5 +563,13 @@ form textarea {
 
   .social-contact .email {
     display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .project-container,
+  .about-section {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 40px;
   }
 }
