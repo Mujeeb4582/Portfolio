@@ -15,13 +15,28 @@
 }
 
 .modal {
-  background-color: #fff;
+  background-color: var(--primaryWhite);
   padding: 12px;
   border-radius: 8px;
 }
 
-.image img {
+.single-image img {
   width: 100%;
+  border-radius: 8px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.image img {
+  width: 50%;
   border-radius: 8px;
 }
 
@@ -42,7 +57,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #172b4d;
+  color: var(--blueTitle);
   padding: 1.5rem 0.4rem;
 }
 
@@ -72,7 +87,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #344563;
+  color: var(--navMenuItemDesktop);
   padding: 1.5rem 0.4rem;
   text-align: justify;
   text-justify: inter-word;
@@ -98,11 +113,6 @@
     display: none;
   }
 
-  .desktop-image img {
-    width: 100%;
-    border-radius: 8px;
-  }
-
   .dclose {
     display: block;
   }
@@ -114,7 +124,7 @@
   }
 
   .dclose img:hover {
-    background-color: #36b37e;
+    background-color: var(--green);
     border-radius: 30%;
   }
 
@@ -125,7 +135,7 @@
 
   .popup-details {
     line-height: 30px;
-    color: #344563;
+    color: var(--navMenuItemDesktop);
   }
 
   .modal-details {
