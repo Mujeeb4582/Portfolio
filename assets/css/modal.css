@@ -128,6 +128,11 @@
     border-radius: 30%;
   }
 
+  .popup {
+    padding: 1.1rem 18rem;
+    height: fit-content;
+  }
+
   .popup-title {
     font-weight: 700;
     max-width: 589px;
@@ -146,8 +151,17 @@
 
   .popup-action-btn {
     position: absolute;
-    right: 35px;
+    right: 19rem;
   }
 
   /* Popup-window styling end */
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .popup {
+    padding: 1.1rem 5rem;
+  }
+  .popup-action-btn {
+    right: 6rem;
+  }
 }
