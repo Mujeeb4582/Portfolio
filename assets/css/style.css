@@ -221,7 +221,7 @@
     url(../../images/about-mobile-top.png),
     url(../../images/about-mobile-bottom.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: right top, left 90%;
+  background-position: right top, left 95%;
 }
 
 .about {
@@ -240,13 +240,13 @@
 }
 
 .about p {
-  padding: 4rem 2rem 7rem 2rem;
+  padding: 1rem 2rem 9rem 2rem;
   text-align: justify;
 }
 
 .about-button {
-  margin-top: -4rem;
-  margin-bottom: 2rem;
+  margin-top: -8rem;
+  margin-bottom: 4rem;
 }
 
 .project,
@@ -454,6 +454,12 @@ form textarea {
     margin-top: 0.6em;
     font-size: calc(0.9rem + 0.5vw);
     line-height: 2rem;
+  }
+
+  .about p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
   }
 
   .social-container ul {
