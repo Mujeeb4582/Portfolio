@@ -42,6 +42,7 @@ nav .hamburger {
   cursor: pointer;
   border: none;
   z-index: 10;
+  box-shadow: 0 2px 4px 0px #0000004d;
 }
 
 nav .hamburger .closeIcon {
