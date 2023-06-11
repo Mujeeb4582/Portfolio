@@ -31,7 +31,7 @@ const workData = [
   },
   {
     projectNumber: 3,
-    title: 'Hello! Sharing world DIGITAL YOUTH GLOBAL SUMMIT 2019',
+    title: 'GLOBAL SUMMIT',
     projectDetail: `The project I have completed is my first capstone project, which involved utilizing HTML, CSS, and JavaScript to build a functional web application. Throughout the project, I worked with these programming languages to design and develop the various elements of the application.
       `,
     Img: 'https://user-images.githubusercontent.com/109666020/221826371-cfaab064-8709-4584-bd02-6335c4aa9b24.png',
